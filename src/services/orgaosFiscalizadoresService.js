@@ -26,7 +26,7 @@ const remove = (id) => {
   return request.then(({ data }) => data)
 }
 
-const produtosService = {
+const orgaosFiscalizadoresService = {
   getAll,
   getOne,
   create,
@@ -34,4 +34,4 @@ const produtosService = {
   remove
 };
 
-export default produtosService;
+export default orgaosFiscalizadoresService;
